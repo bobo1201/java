@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;java1209/src/java1209&apos;&#x0D;&#x0A;- Original project: &apos;java1209&apos;&#x0D;&#x0A;- Destination element: &apos;java1209/src/java1209&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     test11.java&#x0D;&#x0A;     test10.java&#x0D;&#x0A;     test12.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="/src&lt;java1209" element1="test11.java" element2="test10.java" element3="test12.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1670549862444" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package java0110_2;
+
+public class computerExample1 {
+	public static void main(String[] args) {
+
+		computer1 com = new computer1();
+		
+		int sum1 = com.sum(85, 95, 93);
+		double avg1 = com.avg(85, 95, 93);
+		
+		System.out.println("sum1 : " + sum1);
+		System.out.println("avg1 : " + avg1);
+		
+		int sum2 = com.sum(85, 95, 93, 84);
+		double avg2 = com.avg(85, 95, 93, 94);
+	}
+}

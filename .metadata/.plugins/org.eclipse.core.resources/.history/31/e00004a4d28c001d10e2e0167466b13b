@@ -1,0 +1,10 @@
+package java0105;
+
+public class ex3_10 {
+	public static void main(String[] args) {
+		char ch = 'A';
+		
+		char lowerCase = ()
+		
+	}
+}

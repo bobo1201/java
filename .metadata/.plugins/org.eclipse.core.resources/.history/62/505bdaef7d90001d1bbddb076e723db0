@@ -1,0 +1,19 @@
+ package java0110;
+
+public class ArrayEx03 {
+
+	public static void main(String[] args) {
+		
+		String[] oldArr = { "java", "array", "copy" };
+		
+		String[] newArr = new String[5];
+		
+		System.arraycopy(oldArr, 1, newArr, 1, oldArr.length-1);
+		
+		for(int i=0; i<newArr.length; i++) {
+			System.out.print(newArr[i] + " ");
+		}
+		
+		System.arraycopy(oldArr, 0, newArr, 0, oldArr.length);
+	}
+}

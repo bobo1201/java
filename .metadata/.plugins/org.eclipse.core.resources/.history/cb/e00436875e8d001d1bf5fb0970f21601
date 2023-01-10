@@ -1,0 +1,22 @@
+package java0106;
+
+public class ifDiceExample {
+	public static void main(String[] args) {
+		
+		int num = (int)(Math.random() * 6) + 1;
+		int num2 = (int)(Math.random() * 6) + 1;
+		
+		System.out.println("첫 번째 주사위 숫자 : " + num);
+		System.out.println("두 번째 주사위 숫자 : " + num2);
+		
+		int sum = num + num2;
+		
+		if(sum > 10) {
+			System.out.println("축하합니다. 당첨입니다.");
+		} else if(sum > 6) {
+			System.out.println("아쉽지만 다음기회에 도전하세요");			
+		} else {
+			System.out.println("다시 던지세요.");
+		}
+	}
+}

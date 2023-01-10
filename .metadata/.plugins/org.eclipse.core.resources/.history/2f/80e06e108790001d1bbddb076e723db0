@@ -1,0 +1,11 @@
+package java0110;
+
+public enum WeekExample {
+	MONDAY,
+	TUESDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY,
+	SUNDAY
+}

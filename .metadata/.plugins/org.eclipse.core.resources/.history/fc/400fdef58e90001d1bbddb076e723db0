@@ -1,0 +1,44 @@
+package java0110;
+
+import java.util.Scanner;
+
+public class ex09 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] scores = new int[] {};
+		
+		while(true) {
+			
+			int max = 0;
+			
+			System.out.println("-------------------------------------------------");
+			System.out.println("1. 학생수 | 2. 점수입력 | 3. 점수리스트 | 4. 분석 | 5. 종료");
+			System.out.println("-------------------------------------------------");
+			
+			System.out.print("선택> ");
+			String ch = sc.next();
+			
+			switch(ch) {
+				case "1":
+					System.out.print("학생수> ");
+					int a = sc.nextInt();
+					scores = new int[a];
+					break;
+				case "2":
+					for(int i=0; i<scores.length; i++) {
+						System.out.print("scores[" + i + "]: ");				
+						scores[i] = sc.nextInt();
+					}
+					break;
+				case "3":
+					for(int i=0; i<scores.length; i++) {
+						System.out.print("scores[" + i + "]: " + scores[i]);				
+					}
+					break;
+
+			}
+		}
+	}
+}
