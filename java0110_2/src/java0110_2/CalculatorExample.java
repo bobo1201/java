@@ -5,16 +5,10 @@ public class CalculatorExample {
 		
 		Calculator myCalc = new Calculator();
 		
-		// 리턴 없는 메소드는 저장할 변수가 필요 없음
-		myCalc.powerOn();
+		double result1 = myCalc.areaRectangle(10);
+		double result2 = myCalc.areaRectangle(10, 20);
 		
-		// 리턴되는 값이있는 메소드는 리턴되는 값을 저장할 변수(리턴되는 타입과 동일한 타입)가 필요 없음
-		int result1 = myCalc.plus(5, 6);
-		System.out.println("result1: " + result1);
-		
-		double result2 = myCalc.divide(10, 4);
-		System.out.println("result2: " + result2);
-		
-		myCalc.powerOff();
+		System.out.println("정사각형의 넓이= " + result1);
+		System.out.println("직사각형의 넓이= " + result2);	
 	}
 }

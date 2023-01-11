@@ -28,6 +28,20 @@ public class computerExample1 {
 		com.sumAvg(5, 6, 7);
 		com.sumAvg(5, 6, 7, 8);
 		com.sumAvg(5, 6, 7, 8, 9);
-		
 	}
 }
+
+// 출력 : 
+// sum1 : 273
+// avg1 : 91.0
+// sum2 : 357
+// avg2 : 91.75
+// sum3 : 432
+// avg3 : 88.4
+//
+// sum : 18
+// avg : 6.0
+// sum : 26
+// avg : 6.5
+// sum : 35
+// avg : 7.0
