@@ -17,3 +17,6 @@ public class SingletonExample {
 		}
 	}
 }
+
+// 출력 :
+// 같은 Singleton 객체입니다.

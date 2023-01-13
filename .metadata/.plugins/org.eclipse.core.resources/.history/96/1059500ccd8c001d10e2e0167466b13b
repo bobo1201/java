@@ -1,8 +1,0 @@
-package java0105;
-
-public class ex3_4 {
-	public static void main(String[] args) {
-		int num = 41;
-		System.out.println(num / 100 * 100);
-	}
-}
