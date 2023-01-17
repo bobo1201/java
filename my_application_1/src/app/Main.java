@@ -13,3 +13,7 @@ public class Main {
 		b.method();
 	}
 }
+
+//	출력 : 
+//	A-method 실행
+//	B-method 실행
