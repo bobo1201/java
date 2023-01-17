@@ -12,7 +12,6 @@
 			<item value="org.eclipse.m2e"/>
 			<item value="org.eclipse.oomph"/>
 			<item value="org.eclipse.wst.XMLCategory"/>
-			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
