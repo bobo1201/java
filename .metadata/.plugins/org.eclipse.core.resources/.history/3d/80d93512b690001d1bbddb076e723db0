@@ -1,9 +1,0 @@
-package java0110_2;
-
-public class computerExample {
-	public static void main(String[] args) {
-		computer myCom = new computer();
-		
-		myCom.sum(1, 2, 3);
-	}
-}
